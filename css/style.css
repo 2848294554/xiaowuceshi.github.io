@@ -1,0 +1,1099 @@
+
+
+@charset "utf-8";
+
+#__bs_notify__ {
+
+    display: none !important;
+
+      }
+
+
+
+@media screen and (min-width:1330px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body>*{
+        width: 1330px;
+        height: 200px;
+        background-color: red;
+        margin: 0 auto;
+       
+    }
+    body{
+        background-image: url("../images/beijingtu.png");
+        background-repeat: no-repeat;
+        background-size:100%  100%;
+    }
+    /* ------------------下面是介绍图------------- */
+    /* #tu{
+        width: 100%;
+        height: 150px;
+        background-color: yellowgreen;
+    }
+    #js-tu{
+        width: 100%;
+        height: 100%;
+    } */
+    /* -----------------------面试头部导航---------- */
+    header{
+        width: 100%;
+        height: 70px;
+        /* background-color: #56565700; */
+        background-color: rgba(255, 255, 255, 0.76);
+        /* box-shadow: 0 3px 12px rgb(98 107 181 / 25%); */
+        box-shadow: 5px 1px 15px 1px #56565760;
+        backdrop-filter: blur(5px) ;
+        z-index: 100;
+        position: fixed;
+        top: 0px;
+    }
+    /*-------------------------下面是logo---------------  */
+    #logo{
+        width: 4%;
+        height: 70px;
+        /* background-color: aqua; */
+        /* background-image: url("../images/logo.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat; */
+        float: left;
+    }
+    /* --------------------------下面是logo名------------------ */
+    #logo-min{
+        width: 10%;
+        height: 70px;
+        /* background-color: red; */
+        float: left;
+    }
+    .min-1{
+        margin-top: 3px;
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        line-height: 46px;
+        /* background-color: blue; */
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 1.3em;
+    }
+    .min-2{
+        font-size: 18px;
+        width: 100%;
+        height: 30px;
+        line-height: 30px;;
+        text-align: center;
+        /* background-color: rgb(102, 255, 0); */
+        color: rgba(0, 0, 0, 0.719);
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    /* ------------------------下面是导航栏布局------------------- */
+    .s1{
+        color: rgb(59, 55, 248);
+    }
+    nav{
+        float: left;
+        width: 50%;
+        height: 70px;
+        /* background-color: rgba(0, 6, 12, 0.575); */
+    }
+    nav ul{
+        width: 100%;
+        height: 100%;
+        line-height: 70px;
+        /* background-color: #11f0dd; */
+    }
+    nav a{
+        width: 130px;
+        height: 70px;
+        text-align: center;
+        font-size: 20px;
+        float: left;
+        text-decoration: none;
+        color: black;
+        /* background-color: rgb(0, 255, 76); */
+    }
+    nav a:hover{
+        width: 130px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 24px;
+        font-weight: bold;
+        color: rgb(59, 55, 248);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-bottom: 3px rgb(4, 0, 255) solid;
+    }
+    /* nav img{
+    position: relative;
+    left: -10%;
+    } */
+    /* --------------------------------下面是搜索栏布局------- */
+    #ssl{
+        width: 27%;
+        height: 70px;
+        line-height: 70px;
+        /* background-color: red; */
+        float: left;
+    }
+    .ssk1{
+        width: 60%;
+        height: 35px;
+        margin-left: 35%;
+        border-radius: 154px;
+        border: 0px;
+        background-color: #56565700;
+        border: 2px rgba(67, 62, 62, 0.652) solid;
+        /* border-bottom: 3px rgb(0, 0, 0) solid; */
+    }
+     .ssk2{
+        width: 37px;
+        height: 30px;
+        line-height: 35px;
+        margin-left: -50px;
+        color: black;
+        background-color: #1d1e1e87;
+        border-radius: 20px;
+        position: relative;
+        top: 10px;
+    }
+    .ssk2:hover{
+        width: 37px;
+        height: 30px;
+        line-height: 35px;
+        margin-left: -50px;
+        border-radius: 30px;
+        background-color: #1d1e1e61;
+        position: relative;
+        top: 10px;    
+    }
+    /* ---------------更多实用网------------------ */
+    #gengduo{
+        width: 8%;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+        /* background-color: rgb(137, 103, 238); */
+        float: left;
+        /* background-image: url("../images/gengduo.png");
+        background-size: 15% 18% ;
+        background-repeat: no-repeat;
+        background-position: 70%; */
+    }
+    #gengduo a{
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        float: left;
+    }
+    #gengduo a:hover{
+        width: 100%;
+        height: 70px;
+        text-decoration: none;
+        color: rgb(59, 55, 248);
+        border-bottom: 3px rgb(4, 0, 255) solid;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    /* -----------------下面是布局-1--------------- */
+    #buju-1{
+        width: 100%;
+        height: 800px;
+        /* background-color: white; */
+        background-color: #ffffff6c;
+        /* backdrop-filter: blur(10px); */
+        /* border: solid black 2px; */
+    }
+    .da{
+        object-fit: fill;
+        width: 100%;
+        height: 100%;
+    }
+/* -------------------------下面是轮播布局-------------------- */
+#lunbobuju{
+    width: 60%; 
+    height: 85%;
+    background-color: #FFFFFF; 
+    margin-left: 4%;
+    border: 3px black solid;
+    z-index: 1;
+    position: relative;
+    top: 5%; 
+
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------下面是返回按钮布局-------------- */
+#fanhuianniu{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    top: 86%;
+    left: 90%;
+    border-radius: 10px;
+    background-image: url("../images/fanhui.png");
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position: 45%;
+    /* background-image: linear-gradient(to right,rgb(41, 250, 180),rgb(63, 175, 240));     */
+    border: 2px black solid;
+    background-color: white;
+}
+#fanhuianniu a{
+    width: 100%;
+    height: 100%;
+    float: left;
+    border-radius: 10px;
+}
+#fanhuianniu:hover{
+    width:60px;
+    height:60px;
+    position: fixed;
+    top: 86%;
+    left: 90%;
+    background-color: #e37507;
+    border: 2px black solid;
+}
+ /* ----------------------------下面是版权------------------- */
+    footer{
+        width: 100%;
+        height: 300px;
+        background-color: #565657;
+    }
+
+
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:1329px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body>*{
+        width: 768px;
+        height: 200px;
+        background-color: red;
+        margin: 0 auto;
+        /* background-image: url("../images/beijingtu.png");
+        background-repeat: no-repeat;
+        background-size:100%  100%; */
+    }
+    /* ------------------下面是介绍图------------- */
+    /* #tu{
+        width: 100%;
+        height: 150px;
+        background-color: yellowgreen;
+    }
+    #js-tu{
+        width: 100%;
+        height: 100%;
+    } */
+    /* -----------------------面试头部导航---------- */
+    header{
+        width: 100%;
+        height: 60px;
+        background-color: rgba(255, 255, 255, 0.76);
+        /* box-shadow: 0 3px 12px rgb(98 107 181 / 25%); */
+        box-shadow: 5px 1px 15px 1px #56565760;
+        backdrop-filter: blur(5px) ;
+        position: fixed;
+        top: 0px;
+    }
+    /*-------------------------下面是logo---------------  */
+    #logo{
+        width: 5%;
+        height: 60px;
+        /* background-color: aqua; */
+        /* background-image: url("../images/logo.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat; */
+        float: left;
+    }
+    /* --------------------------下面是logo名------------------ */
+    #logo-min{
+        width: 10%;
+        height: 60px;
+        /* background-color: red; */
+        float: left;
+    }
+    .min-1{
+        margin-top: 1px;
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        line-height: 46px;
+        /* background-color: blue; */
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 1em;
+    }
+    .min-2{
+        font-size: 0.5em;
+        width: 100%;
+        height: 30px;
+        line-height: 30px;;
+        text-align: center;
+        /* background-color: rgb(102, 255, 0); */
+        color: rgba(0, 0, 0, 0.719);
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    /* ------------------------下面是导航栏布局-------------- */
+    .s1{
+        color: rgb(59, 55, 248);
+    }
+    nav{
+        float: left;
+        width: 50%;
+        height: 60px;
+        /* background-color: rgba(0, 6, 12, 0.575); */
+    }
+    nav ul{
+        width: 100%;
+        height: 100%;
+        line-height: 60px;
+
+    }
+    nav a{
+        width: 90px;
+        height: 60px;
+        text-align: center;
+        font-size: 1.1em;
+        float: left;
+        text-decoration: none;
+        color: black;
+    }
+    nav a:hover{
+        width: 20px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: rgb(59, 55, 248);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-bottom: 2px rgb(4, 0, 255) solid;
+    }
+    /* nav img{
+    position: relative;
+    left: -10%;
+    } */
+    /* --------------------------------下面是搜索栏布局------- */
+    #ssl{
+        width: 27%;
+        height: 60px;
+        line-height: 60px;
+        /* background-color: red; */
+        float: left;
+    }
+    .ssk1{
+        width: 75%;
+        height: 35px;
+        margin-left: 5%;
+        border-radius: 15px;
+        border: 1px #565657 solid;
+    }
+    .ssk2{
+        width: 17%;
+        height: 37px;
+        margin-left: -6%;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background-image: linear-gradient(to right,rgb(41, 250, 180),rgb(63, 175, 240));
+        color: white;
+        border: 1px #565657 solid;
+    }
+    /* ---------------更多实用网------------------ */
+    #gengduo{
+        width: 8%;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        /* background-color: rgb(137, 103, 238); */
+        float: left;
+        /* background-image: url("../images/gengduo.png");
+        background-size: 15% 18% ;
+        background-repeat: no-repeat;
+        background-position: 70%; */
+    }
+    #gengduo a{
+        width: 100%;
+        height: 60px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1em;
+        color: black;
+        float: left;
+    }
+    #gengduo a:hover{
+        width: 100%;
+        height: 60px;
+        text-decoration: none;
+        color: rgb(59, 55, 248);
+        border-bottom: 2px rgb(4, 0, 255) solid;
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+    /* -----------------下面是布局-1--------------- */
+    #buju-1{
+        width: 90%;
+        height: 600px;
+    }
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------下面是返回按钮布局-------------- */
+#fanhuianniu{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 86%;
+    left: 90%;
+    border-radius: 10px;
+    background-image: url("../images/fanhui.png");
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position: 45%;
+    /* background-image: linear-gradient(to right,rgb(41, 250, 180),rgb(63, 175, 240));     */
+    border: 1px black solid;
+    background-color: white;
+    box-shadow: 1px 1px 5px 1px;
+}
+#fanhuianniu a{
+    width: 100%;
+    height: 100%;
+    float: left;
+    border-radius: 10px;
+}
+#fanhuianniu:hover{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 86%;
+    left: 90%;
+    background-color: #11f0dd;
+    border: 1px black solid;
+}
+ /* ----------------------------下面是版权------------------- */
+    footer{
+        width: 100%;
+        height: 300px;
+        background-color: #565657;
+    }
+
+
+
+
+}
+
+
+@media screen and  (min-width:480px) and (max-width:767px) {
+    
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body>*{
+        width: 480px;
+        height: 200px;
+        background-color: red;
+        margin: 0 auto;
+    }
+    body{
+        background-image: url("../images/beijingtu.png");
+        background-repeat: no-repeat;
+        background-size:100%  100%;
+    }
+    /* ------------------下面是介绍图------------- */
+    /* #tu{
+        width: 100%;
+        height: 150px;
+        background-color: yellowgreen;
+    }
+    #js-tu{
+        width: 100%;
+        height: 100%;
+    } */
+    /* -----------------------面试头部导航---------- */
+    header{
+        width: 480px;
+        height: 70px;
+        background-color: #11f0dd;
+        display: flex;
+    }
+    /*-------------------------下面是logo---------------  */
+    #logo{
+        width: 15%;
+        height: 70px;
+    }
+    /* --------------------------下面是logo名------------------ */
+    #logo-min{
+        width: 7em;
+        height: 70px;
+        /* background-color: red; */
+    }
+    .min-1{
+        margin-top: 3px;
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        line-height: 46px;
+        /* background-color: blue; */
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 0.9em;
+    }
+    .min-2{
+        font-size: 0.5em;
+        width: 100%;
+        height: 30px;
+        line-height: 30px;;
+        text-align: center;
+        /* background-color: rgb(102, 255, 0); */
+        color: rgba(0, 0, 0, 0.719);
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    /* ----------------------下面是导航栏------------ */
+    nav{
+        display: none;
+    }
+    /* --------------------------------下面是搜索栏布局------- */
+    #ssl{
+        width: 45%;
+        height: 70px;
+        line-height: 70px;
+        /* background-color: red; */
+        margin-left: 10%;
+    }
+    .ssk1{
+        width: 100%;
+        height: 35px;
+        border-radius: 154px;
+        border: 0px;
+        background-color: #56565700;
+        border: 2px rgba(67, 62, 62, 0.652) solid;
+        /* border-bottom: 3px rgb(0, 0, 0) solid; */
+    }
+     .ssk2{
+        width: 37px;
+        height: 30px;
+        line-height: 35px;
+        margin-left: -50px;
+        color: black;
+        background-color: #1d1e1e87;
+        border-radius: 20px;
+        position: relative;
+        top: 10px;
+    }
+    .ssk2:hover{
+        width: 37px;
+        height: 30px;
+        line-height: 35px;
+        margin-left: -50px;
+        border-radius: 30px;
+        background-color: #1d1e1e61;
+        position: relative;
+        top: 10px;    
+    }
+    /* ---------------更多实用网------------------ */
+    #gengduo{
+        display: none;
+    }
+    /* ---------------------下面是侧边栏按钮布局--------------- */
+    #cebian{
+        width: 15%;
+        height: 70px;
+        float: left;
+        /* background-color: rgb(106, 0, 255); */
+    }
+    #cebian img{
+        width: 100%;
+        height: 100%;
+    }
+/* -------------------------下面是侧边栏布局-------------- */
+#cebianbuju{
+    width: 100%;
+    height: 100em;
+    /* background-color: #ffffffaa; */
+    z-index: 11;
+    display: none;
+    position: fixed;
+    top: 0px;
+}
+.cebian-da{
+    width: 100%;
+    height: 100%;
+    /* background-color: #11f0dd; */
+    display: flex;
+}
+.cebian-1{
+    width: 60%;
+    height: 100%;
+    background-color: #56565700;
+    float: left;
+}
+.cebian-2{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(10, 235, 62);
+    float: left;
+}
+
+
+
+
+
+
+
+
+    /* -----------------下面是布局-1--------------- */
+    #buju-1{
+        display: none;
+        width: 100%;
+        height: 800px;
+        /* background-color: white; */
+        background-color: #ffffff6c;
+        /* backdrop-filter: blur(10px); */
+        /* border: solid black 2px; */
+    }
+    .da{
+        object-fit: fill;
+        width: 100%;
+        height: 100%;
+    }
+/* -------------------------下面是轮播布局-------------------- */
+#lunbobuju{
+    width: 60%; 
+    height: 85%;
+    background-color: #FFFFFF; 
+    margin-left: 4%;
+    border: 3px black solid;
+    z-index: 1;
+    position: relative;
+    top: 5%; 
+
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------下面是返回按钮布局-------------- */
+#fanhuianniu{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    top: 86%;
+    left: 90%;
+    border-radius: 10px;
+    background-image: url("../images/fanhui.png");
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position: 45%;
+    /* background-image: linear-gradient(to right,rgb(41, 250, 180),rgb(63, 175, 240));     */
+    border: 2px black solid;
+    background-color: white;
+}
+#fanhuianniu a{
+    width: 100%;
+    height: 100%;
+    float: left;
+    border-radius: 10px;
+}
+#fanhuianniu:hover{
+    width:60px;
+    height:60px;
+    position: fixed;
+    top: 86%;
+    left: 90%;
+    background-color: #e37507;
+    border: 2px black solid;
+}
+ /* ----------------------------下面是版权------------------- */
+    footer{
+        width: 100%;
+        height: 300px;
+        background-color: #565657;
+    }
+
+
+
+
+}
+
+@media screen and  (min-width:234px) and (max-width:487px) {
+    
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body>*{
+        width: 1px;
+        height: 200px;
+        /* background-color: red; */
+        margin: 0 auto;
+       
+    }
+    body{
+        background-image: url("../images/beijingtu.png");
+        background-repeat: no-repeat;
+        background-size:100%  100%;
+    }
+    /* ------------------下面是介绍图------------- */
+    /* #tu{
+        width: 100%;
+        height: 150px;
+        background-color: yellowgreen;
+    }
+    #js-tu{
+        width: 100%;
+        height: 100%;
+    } */
+    /* -----------------------面试头部导航---------- */
+    header{
+        width: 100%;
+        height: 70px;
+        /* background-color: #56565700; */
+        background-color: rgba(255, 255, 255, 0.76);
+        /* box-shadow: 0 3px 12px rgb(98 107 181 / 25%); */
+        box-shadow: 5px 1px 15px 1px #56565760;
+        backdrop-filter: blur(5px) ;
+        z-index: 10;
+        position: fixed;
+        top: 0px;
+    }
+    /*-------------------------下面是logo---------------  */
+    #logo{
+        width: 10%;
+        height: 70px;
+        /* background-color: aqua; */
+        /* background-image: url("../images/logo.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat; */
+        float: left;
+    }
+    /* --------------------------下面是logo名------------------ */
+    #logo-min{
+        width: 10em;
+        height: 70px;
+        /* background-color: red; */
+        float: left;
+    }
+    .min-1{
+        margin-top: 3px;
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        line-height: 46px;
+        /* background-color: blue; */
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 1.3em;
+    }
+    .min-2{
+        font-size: 18px;
+        width: 100%;
+        height: 30px;
+        line-height: 30px;;
+        text-align: center;
+        /* background-color: rgb(102, 255, 0); */
+        color: rgba(0, 0, 0, 0.719);
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    /* ------------------------下面是导航栏布局------------------- */
+    .s1{
+        color: rgb(59, 55, 248);
+    }
+    nav{
+        float: left;
+        width: 50%;
+        height: 70px;
+        /* background-color: rgba(0, 6, 12, 0.575); */
+        display: none;
+    }
+    nav ul{
+        width: 100%;
+        height: 100%;
+        line-height: 70px;
+        /* background-color: #11f0dd; */
+    }
+    nav a{
+        width: 130px;
+        height: 70px;
+        text-align: center;
+        font-size: 20px;
+        float: left;
+        text-decoration: none;
+        color: black;
+        /* background-color: rgb(0, 255, 76); */
+    }
+    nav a:hover{
+        width: 130px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 24px;
+        font-weight: bold;
+        color: rgb(59, 55, 248);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-bottom: 3px rgb(4, 0, 255) solid;
+    }
+    /* nav img{
+    position: relative;
+    left: -10%;
+    } */
+    /* --------------------------------下面是搜索栏布局------- */
+    #ssl{
+        width: 28%;
+        height: 70px;
+        line-height: 70px;
+        /* background-color: red; */
+        float: left;
+        margin-left: 30%;
+    }
+    .ssk1{
+        width: 100%;
+        height: 35px;
+        /* margin-left: 35%; */
+        border-radius: 154px;
+        border: 0px;
+        background-color: #56565700;
+        border: 2px rgba(67, 62, 62, 0.652) solid;
+        /* border-bottom: 3px rgb(0, 0, 0) solid; */
+    }
+     .ssk2{
+        width: 37px;
+        height: 30px;
+        line-height: 35px;
+        margin-left: -50px;
+        color: black;
+        background-color: #1d1e1e87;
+        border-radius: 20px;
+        position: relative;
+        top: 10px;
+    }
+    .ssk2:hover{
+        width: 37px;
+        height: 30px;
+        line-height: 35px;
+        margin-left: -50px;
+        border-radius: 30px;
+        background-color: #1d1e1e61;
+        position: relative;
+        top: 10px;    
+    }
+    /* ---------------更多实用网------------------ */
+    #gengduo{
+        display: none;
+        width: 10em;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+        /* background-color: rgb(137, 103, 238); */
+        float: left;
+        /* background-image: url("../images/gengduo.png");
+        background-size: 15% 18% ;
+        background-repeat: no-repeat;
+        background-position: 70%; */
+    }
+    #gengduo a{
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        float: left;
+    }
+    #gengduo a:hover{
+        width: 100%;
+        height: 70px;
+        text-decoration: none;
+        color: rgb(59, 55, 248);
+        border-bottom: 3px rgb(4, 0, 255) solid;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    /* ---------------------下面是侧边栏按钮布局--------------- */
+    #cebian{
+        width:  10.4%;
+        height: 70px;
+        float: left;
+        /* background-color: rgb(0, 255, 208); */
+    }
+    #cebian img{
+        width: 100%;
+        height: 100%;`
+    }
+/* -------------------------下面是侧边栏布局-------------- */
+#cebianbuju{
+    width: 100%;
+    height: 100em;
+    /* background-color: #ffffffaa; */
+    z-index: 11;
+    display: none;
+    position: fixed;
+    top: 0px;
+}
+.cebian-da{
+    width: 100%;
+    height: 100%;
+    /* background-color: #11f0dd; */
+    display: flex;
+}
+.cebian-1{
+    width: 60%;
+    height: 100%;
+    background-color: #56565700;
+    float: left;
+}
+.cebian-2{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(10, 235, 62);
+    float: left;
+}
+
+
+
+
+
+
+
+
+    /* -----------------下面是布局-1--------------- */
+    #buju-1{
+        display: none;
+        width: 100%;
+        height: 800px;
+        /* background-color: white; */
+        background-color: #ffffff6c;
+        /* backdrop-filter: blur(10px); */
+        /* border: solid black 2px; */
+    }
+    .da{
+        object-fit: fill;
+        width: 100%;
+        height: 100%;
+    }
+/* -------------------------下面是轮播布局-------------------- */
+#lunbobuju{
+    width: 60%; 
+    height: 85%;
+    background-color: #FFFFFF; 
+    margin-left: 4%;
+    border: 3px black solid;
+    z-index: 1;
+    position: relative;
+    top: 5%; 
+
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------下面是返回按钮布局-------------- */
+#fanhuianniu{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    top: 86%;
+    left: 90%;
+    border-radius: 10px;
+    background-image: url("../images/fanhui.png");
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position: 45%;
+    /* background-image: linear-gradient(to right,rgb(41, 250, 180),rgb(63, 175, 240));     */
+    border: 2px black solid;
+    background-color: white;
+}
+#fanhuianniu a{
+    width: 100%;
+    height: 100%;
+    float: left;
+    border-radius: 10px;
+}
+#fanhuianniu:hover{
+    width:60px;
+    height:60px;
+    position: fixed;
+    top: 86%;
+    left: 90%;
+    background-color: #e37507;
+    border: 2px black solid;
+}
+ /* ----------------------------下面是版权------------------- */
+    footer{
+        width: 100%;
+        height: 300px;
+        background-color: #565657;
+    }
+
+
+
+
+}
